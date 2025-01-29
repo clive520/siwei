@@ -1,17 +1,17 @@
-body {
+.album-page {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
     background-color: #eaf8e0;
     color: #333;
 }
 
-h1 {
+.album-page__title {
     color: #4caf50;
     text-align: center;
     margin-bottom: 20px;
 }
 
-a {
+.album-page__link {
     display: block;
     margin: 10px 0;
     padding: 10px;
@@ -22,11 +22,11 @@ a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-a:hover {
+.album-page__link:hover {
     background-color: #81c784;
     color: white;
 }
 
-a:focus {
+.album-page__link:focus {
     outline: 2px solid #0056b3;
 }
