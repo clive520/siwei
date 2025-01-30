@@ -1,0 +1,28 @@
+.xiwei-album {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #eaf8e0; /* 淺綠色背景 */
+    color: #333; /* 文字顏色 */
+}
+.xiwei-album h1 {
+    color: #4caf50; /* 深綠色標題 */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.xiwei-album a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    text-decoration: none;
+    color: #4caf50; /* 深綠色連結 */
+    background-color: #d0f0c0; /* 淺綠色背景 */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.xiwei-album a:hover {
+    background-color: #81c784; /* 更亮的綠色懸停效果 */
+    color: white;
+}
+.xiwei-album a:focus {
+    outline: 2px solid #0056b3;
+}
