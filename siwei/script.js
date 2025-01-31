@@ -51,7 +51,7 @@ function createLinks(data) {
         const link = document.createElement('a');
         link.appendChild(img); // 將縮圖添加到連結中
         link.href = albumUrl;
-        link.textContent = `${date} ${albumName}1233`;
+        link.textContent = `${date} ${albumName}`;
         link.target = '_blank'; // 在新標籤頁中打開
         link.setAttribute('aria-label', `打開相簿: ${albumName}，日期: ${date}`); // 無障礙標籤
         link.setAttribute('title', `${date} ${albumName} (另開新視窗)`); // title屬性
